@@ -7,7 +7,7 @@ var dawg = function dawg() {
   return console.log('yo, dawg');
 };
 
-console.dawg = console.dawg || yodawg;
+console.dawg = console.dawg || dawg;
 
-exports['default'] = yodawg;
+exports['default'] = dawg;
 module.exports = exports['default'];

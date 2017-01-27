@@ -18,7 +18,7 @@ describe('console.dawg:', () => {
 
         dawg();
 
-        expect(console.log).to.have.been.calledWith('dawg');
+        expect(console.log).to.have.been.calledWith('yo, dawg');
 
         console.log.restore();
     });

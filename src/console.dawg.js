@@ -2,6 +2,6 @@
 
 const dawg = () => console.log('yo, dawg');
 
-console.dawg = console.dawg || yodawg
+console.dawg = console.dawg || dawg
 
-export default yodawg;
+export default dawg;

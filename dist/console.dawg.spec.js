@@ -31,7 +31,7 @@ describe('console.dawg:', function () {
 
         (0, _consoleDawg2['default'])();
 
-        expect(console.log).to.have.been.calledWith('dawg');
+        expect(console.log).to.have.been.calledWith('yo, dawg');
 
         console.log.restore();
     });
