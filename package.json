@@ -1,0 +1,23 @@
+{
+  "name": "console.dawg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elwynelwyn/console.dawg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elwynelwyn/console.dawg/issues"
+  },
+  "homepage": "https://github.com/elwynelwyn/console.dawg#readme",
+  "devDependencies": {
+    "typescript": "2.1.5"
+  }
+}
