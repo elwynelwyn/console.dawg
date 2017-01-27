@@ -2,9 +2,10 @@
   "name": "console.dawg",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/console.dawg.js",
   "scripts": {
-    "build": "tsc"
+    "build": "babel src -d dist",
+    "test": "babel-node ./node_modules/isparta/bin/isparta cover _mocha -- src/**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -12,12 +13,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/elwynelwyn/console.dawg/issues"
   },
   "homepage": "https://github.com/elwynelwyn/console.dawg#readme",
   "devDependencies": {
-    "typescript": "2.1.5"
+    "babel": "5.8.23",
+    "chai": "3.3.0",
+    "isparta": "3.1.0",
+    "mocha": "2.3.3",
+    "sinon": "1.17.1",
+    "sinon-chai": "2.8.0"
   }
 }
